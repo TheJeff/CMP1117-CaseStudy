@@ -4,13 +4,13 @@ Case Study git for collaboration
 
 ## Requirements and Marking
 
-**Required**: Create a program that processes data with file I/O, nested loops, and other logic from the textbook.
-
-⋅⋅⋅Read data from the first text file, loop through the second text file, and do something. Output something to a third text file.
-
-**Marking:** The case study will be marked out of 100 and is worth 20% of the course mark.
-
-There will be several check points, where the team members will need to submit work.
+>**Required**: Create a program that processes data with file I/O, nested loops, and other logic from the textbook.
+>
+>Read data from the first text file, loop through the second text file, and do something. Output something to a third text file.
+>
+>**Marking:** The case study will be marked out of 100 and is worth 20% of the course mark.
+>
+>There will be several check points, where the team members will need to submit work.
 
 ## Checkpoint 1 - Team Names
 |Team Names|
