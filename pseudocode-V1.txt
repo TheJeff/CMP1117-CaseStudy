@@ -1,0 +1,48 @@
+Reading in the file:
+  line 0: consists of titles for the sheet
+  line 1-18: players and their stats separated by tabs
+    split function to separate
+  line 20: Team sums for each stat
+  lines 21-end: glossary and description of each stat
+    Store in a list to print
+
+Dictionary:
+  keys will be the player's name parsed from the file
+  values will be in the format
+    {
+    "age": age,
+    "G": g,
+    ...
+    "PTS": pts
+    }
+
+    Can print the line of stats with a for-loop, and the whole team with a
+    nested for loop using the following model,
+
+    for x in cars:
+    print (x)
+    for y in cars[x]:
+        print (y,':',cars[x][y]) 
+
+    prints:
+    A
+    color : 2
+    speed : 70
+    B
+    color : 3
+    speed : 60
+
+
+Functions:
+  print all
+  print glossary
+  print player
+  Calculate and print team averages
+  adjust stat,
+    static
+    input: stat name which associates with key, and value for the stat
+  add new player manually,
+    static
+    going to take in multiple user input for the name and each stat and is
+    added to the dictionary.
+  Save as new file.
