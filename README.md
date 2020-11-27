@@ -22,7 +22,7 @@ There will be several check points, where the team members will need to submit w
 
 ## Checkpoint 2 - Pseudocode
 
-[Version 1](../blob/main/pseudocode-V1.txt)
+[Version 1](../main/pseudocode-V1.txt)
 
 ## Checkpoint 3 - Text File Details
 
