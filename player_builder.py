@@ -151,9 +151,11 @@ class Player:
         if switch == 0:
             for heading in title_bar:
                 print(heading, end='\t')
+            print("\n")
         
         for stat in stat_bar:
             print(stat, end='\t')
+        print("\n")
     
 
     # String method of the object

@@ -1,5 +1,5 @@
 import pickle
-import player_builder as pb 
+import player_builder as pb
 
 def main():
 # File 1
@@ -8,14 +8,14 @@ def main():
     
 # File 2
     team = {}
-    player = 0
+    players = 0
 
     with open("Raptors_stats.txt", "r") as infile:
         _unsorted = infile.read().splitlines()
         _unsorted.pop(0)
         for line in _unsorted:
             temp = line.split("\t")
-            team[player] = pb(
+            team[players] = pb.Player(
                 temp[0],
                 temp[1],
                 temp[2],
@@ -26,13 +26,15 @@ def main():
                 temp[7],
                 temp[8]
             )
-            player += 1
+            players += 1
 
             
-
-
-        
-
+# debugging
+    index = 0
+    while index < players:
+        team[index].printStats(1)
+        index +=1 
+# Main Menu
     menu_choice = '0'
     while menu_choice != 'Q' and menu_choice != 'q':
         print('Baseketball Players')
@@ -55,7 +57,7 @@ def main():
             add_TRB = input('Players Total-Rebounds This Season: ')
             add_AST = input('Players Total Assists This Season: ')
             add_PPG = input('Players Total Points: ')
-            team[player] = pb(
+            team[player] = pb.player(
                 add_name,
                 add_games,
                 add_FG,
@@ -115,3 +117,5 @@ def exportTeam(team):
 
     pass
 
+
+main()
