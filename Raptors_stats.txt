@@ -1,0 +1,19 @@
+Name  	G	FG	3P	2P	FT%	TRB	AST	PTS
+Pascal Siakam	60	500	131	369	0.792	439	207	1371
+Kyle Lowry	58	334	164	170	0.857	292	433	1126
+OG Anunoby	69	286	89	197	0.706	364	108	733
+Fred VanVleet	54	319	146	173	0.848	203	357	952
+Serge Ibaka	55	343	70	273	0.718	452	77	845
+Norman Powell	52	296	109	187	0.843	190	91	830
+Terence Davis	72	199	94	105	0.864	237	115	543
+Marc Gasol	44	119	57	62	0.735	275	147	331
+Rondae Hollis-Jefferson	60	155	3	152	0.734	283	106	418
+Patrick McCaw	37	67	23	44	0.722	86	79	170
+Chris Boucher	62	141	38	103	0.784	277	26	411
+Matt Thomas	41	73	47	26	0.75	61	22	202
+Malcolm Miller	28	12	8	4	0.375	16	11	35
+Stanley Johnson	25	22	7	15	0.563	37	20	60
+Oshae Brissett	19	13	3	10	0.8	26	7	37
+Paul Watson	8	10	4	6	0.778	15	5	31
+Dewan Hernandez	6	5	1	4	0.6	14	3	14
+Shamorie Ponds	4	3	1	2	1	1	2	9

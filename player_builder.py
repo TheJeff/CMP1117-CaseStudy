@@ -1,91 +1,51 @@
 class Player:
 
     #init
-    def __init__(self, name):
+    def __init__(
+        self,
+        name,
+        games,
+        FG,
+        three_pointers,
+        two_pointers,
+        FTP,
+        TRB,
+        AST,
+        PPG
+    ):
         self.__name = name
+        self.__games = games
+        self.__FG_per_game = FG
+        self.__3P = three_pointers
+        self.__2P = two_pointers
+        self.__FTP = FTP
+        self.__TRB = TRB
+        self.__AST = AST
+        self.__PPG = PPG
+
+
 
     # Setters
-
-    def setAge(self, age):
-        self.__age = age
-    
     def setGames(self, games):
         self.__games = games
-
-    def setStarted(self, started):
-        self.__started = started
-
-    def setMinutesPlayed(self, minutes):
-        self.__minutes_played = minutes 
-
-    def setEFG(self, EFG):
-        self.__effective_field_goals = EFG
-
-    # Field Goal Setters 
+ 
     def setFieldGoals(self, FG):
         self.__FG_per_game = FG
     
-    def setFGA(self, FGA):
-        self.__FG_attempts = FGA
-    
-    def setFGP(self, FGP):
-        self.__FG_percent = FGP 
-
-    # 3-Point Setters
     def set3P(self, three_pointers):
         self.__3P = three_pointers
     
-    def set3PA(self, TPA):
-        self.__3PA = TPA
-    
-    def set3PP(self, TPP):
-        self.__3PP = TPP
-    
-    # 2-Point Setters
     def set2P(self, two_pointers):
         self.__2P = two_pointers
     
-    def setTPA(self, TPA):
-        self.__2PA = TPA
-    
-    def setTPP(self, TPP):
-        self.__2PP = TPP
-
-    # Free Throws
-    def setFreeThrows(self, FT):
-        self.__FT = FT
-    
-    def setFTA(self, FTA):
-        self.__FTA = FTA
-    
     def setFTP(self, FTP):
         self.__FTP = FTP
-
-    # Rebounds per game
-    def setORB(self, ORB):
-        self.__ORB = ORB
-    
-    def setDRB(self, DRB):
-        self.__DRB = DRB
-    
+  
     def setTRB(self, TRB):
         self.__TRB = TRB 
     
-    # Other stats
     def setAST(self, AST):
         self.__AST = AST 
-    
-    def setSTL(self, STL):
-        self.__STL = STL
-    
-    def setBLK(self, BLK):
-        self.__BLK = BLK
-    
-    def setTOV(self, TOV):
-        self.__TOV = TOV
-    
-    def setPF(self, PF):
-        self.__PF = PF
     
     def setPPG(self, PPG):
         self.__PPG = PPG
@@ -95,50 +55,17 @@ class Player:
     def getGames(self):
         return self.__games
     
-    def getStarted(self):
-        return self.__started
-    
-    def getMinPlayed(self):
-        return self.__minutes_played
-    
     def getFieldGoals(self):
         return self.__FG_per_game
     
-    def getFGA(self):
-        return self.__FG_attempts
-    
-    def getFGP(self):
-        return self.__FG_percent
-    
     def get3P(self):
         return self.__3P
-    
-    def get3PA(self):
-        return self.__3PA
-    
-    def get3PP(self):
-        return self.__3PP
-    
+
     def get2P(self):
         return self.__2P
     
-    def get2PA(self):
-        return self.__2PA
-    
-    def get2PP(self):
-        return self.__2PP
-    
-    def getFT(self):
-        return self.__FT
-    
-    def getFTA(self):
-        return self.__FTA
-    
     def getFTP(self):
         return self.__FTP
-    
-    def getORB(self):
-        return self.__ORB
     
     def getTRB(self):
         return self.__TRB
@@ -146,20 +73,110 @@ class Player:
     def getAST(self):
         return self.__AST
     
-    def getSTL(self):
-        return self.__STL
-    
-    def getBLK(self):
-        return self.__BLK
-    
-    def getTOV(self):
-        return self.__TOV
-    
-    def getPF(self):
-        return self.__PF
-    
     def getPPG(self):
         return self.__PPG
+
+    # Returns a dictionary of all stats for the player
+    def getStats(self):
+        stats = {
+            "Name" : self.__name,
+            "G" : self.__games,
+            "FG" : self.__FG_per_game,
+            "3P" : self.__3P,
+            "22" : self.__2P,
+            "FT" : self.__FTP,
+            "TRB" : self.__TRB,
+            "AST" : self.__AST,
+            "PTS" : self.__PPG
+        }
+        return stats
+       
+
+    # Returns the stat by the glossary name
+    # input: name, name of the stat in the glossary
+    def getStatByName(self, name):
+        player_stats = self.getStats()
+        try: 
+            stat = player_stats[name]
+            return stat
+        except KeyError:
+            print("That stat was not found. try using the Glossary")
+
+
+    # Returns a list of all the stat names for the player
+    def getStatNames(self):
+        # This is memory inefficient
+        player_stats = self.getStats()
+        stat_names = []
+
+        for key, value in player_stats.items():
+            stat_names.append(key)
+        
+        return stat_names
+
+
+    # Returns a list of all the stats without the name
+    def getPlayerStats(self):
+        # Memory inefficient
+        player_stats = self.getStats()
+        stats = []
+
+        for key, value in player_stats.items():
+            stats.append(value)
+        
+        return stats
+
+
+    # returns an average of all
+    def averageOfStats(self):
+        # It's not the most useful but it's here
+        # Memory inefficient
+        stats = self.getStats()
+        total = sum(stats)
+        amount = stats.count()
+        return total / amount
+
+
+    # Prints out all player stats 
+    # Input: switch, 0 to print with title bar
+    def printStats(self, switch):
+        player_stats = self.getStats()
+        title_bar = []
+        stat_bar = []
+
+        for name, stat in player_stats.items():
+            title_bar.append(name)
+            stat_bar.append(stat)
+        
+        if switch == 0:
+            for heading in title_bar:
+                print(heading, end='\t')
+        
+        for stat in stat_bar:
+            print(stat, end='\t')
+    
+
+    # String method of the object
+    # Input: switch, 0 to add the title bar
+    def __str__(self, switch):
+        player_stats = self.getStats()
+        title_bar = []
+        stat_bar = []
+        return_string = ""
+
+        for name, stat in player_stats.items():
+            title_bar.append(name)
+            stat_bar.append(stat)
+        
+        if switch == 0:
+            for heading in title_bar:
+                return_string = return_string + heading + "\t"
+            return_string = return_string + "\n"
+        
+        for stat in stat_bar:
+            return_string = return_string + stat + "\t"
+        return return_string
+
 
     
     

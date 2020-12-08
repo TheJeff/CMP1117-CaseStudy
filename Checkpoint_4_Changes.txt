@@ -1,0 +1,61 @@
+Raptors_stats.txt 
+    Stats reduced down to what seemed the most important
+    separated by tabs
+
+
+Glossary.txt 
+    updated to reflect stats being reduced 
+
+
+player_builder.py
+    refactored initialization to make life easier
+    looks like crap but it's fine
+
+    Added Methods
+
+        getStats()
+        Puts all stats for the given player into a dictionary
+        and returns them
+
+        getStatByName(name)
+        Input: string name of the stat like in the glossary
+        ex: "3P" will return three pointers
+        Exception: raises exception if stat name not found
+        Returns the value of that stat
+
+        getStatNames()
+        Returns a list of all the stat names for printing
+
+        getPlayerStats()
+        Returns a list of each stat of the player
+
+        averageOfStats()
+        Returns a float of the average of all the stats for the player 
+        Not useful but it's something to print.
+
+        printStats(switch)
+        Input: Switch, 0 or 1, controls whether to print with a title bar
+        0 prints with title bar
+        1 prints the object without
+        prints like this:
+        Shamorie Ponds	4	3	1	2	1	1	2	9
+
+        __str__()
+        Input: Switch, 0 or 1, controls whether to save with a title bar
+        0 prints with title bar
+        1 prints the object without
+
+        0 gives you this string:
+        Name  	G	FG	3P	2P	FT%	TRB	AST	PTS
+        Pascal Siakam	60	500	131	369	0.792	439	207	1371
+
+        1 gives you this string:
+        Pascal Siakam	60	500	131	369	0.792	439	207	1371
+
+    Completed without debugging
+
+
+main.py 
+    refactored add option to reflect updates in player_builder 
+    added opening from the Raptors_stats file and populating a dictionary
+    (This allowed for dynamic variable names)
