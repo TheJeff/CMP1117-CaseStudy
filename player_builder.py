@@ -133,7 +133,7 @@ class Player:
         # Memory inefficient
         stats = self.getStats()
         total = sum(stats)
-        amount = stats.count()
+        amount = len(stats)
         return total / amount
 
 
@@ -160,7 +160,7 @@ class Player:
 
     # String method of the object
     # Input: switch, 0 to add the title bar
-    def __str__(self, switch):
+    def toString(self, switch):
         player_stats = self.getStats()
         title_bar = []
         stat_bar = []

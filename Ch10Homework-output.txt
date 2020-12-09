@@ -1,0 +1,147 @@
+Welcome to the text car!
+========================
+1) Create New Car
+2) Drive Car
+3) Exit
+Please enter a selection
+2
+There's no car yet
+Please make one!
+Welcome to the text car!
+========================
+1) Create New Car
+2) Drive Car
+3) Exit
+Please enter a selection
+1
+What year model will the car be?
+2020
+What make will the car be?
+Honda
+Welcome to the text car!
+========================
+1) Create New Car
+2) Drive Car
+3) Exit
+Please enter a selection
+2
+       Car Menu
+========================
+
+You're currently travelling 0 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+1
+       Car Menu
+========================
+
+You're currently travelling 5 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+1
+       Car Menu
+========================
+
+You're currently travelling 10 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+1
+       Car Menu
+========================
+
+You're currently travelling 15 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+1
+       Car Menu
+========================
+
+You're currently travelling 20 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+1
+       Car Menu
+========================
+
+You're currently travelling 25 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+2
+       Car Menu
+========================
+
+You're currently travelling 20 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+2
+       Car Menu
+========================
+
+You're currently travelling 15 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+2
+       Car Menu
+========================
+
+You're currently travelling 10 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+2
+       Car Menu
+========================
+
+You're currently travelling 5 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+2
+Car has stopped
+
+       Car Menu
+========================
+
+You're currently travelling 0 km/h
+
+1) Accelerate
+2) Brake
+3) Return to main menu
+Enter Selection
+3
+Welcome to the text car!
+========================
+1) Create New Car
+2) Drive Car
+3) Exit
+Please enter a selection
+3
+Goodbye!
