@@ -1,0 +1,221 @@
+The Current Following is without much text formatting
+
+Basketball Players
+ ======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to pickle
+ 5) Export team to txt file
+ 6) Print Team
+ Q) Quit
+ ======================
+Enter Selection:
+6
+['Name', 'G', 'FG', '3P', '2P', 'FT%', 'TRB', 'AST', 'PTS']
+Pascal Siakam   60.0    500.0   131.0   369.0   0.792   439.0   207.0   1371.0
+
+Kyle Lowry      58.0    334.0   164.0   170.0   0.857   292.0   433.0   1126.0
+
+OG Anunoby      69.0    286.0   89.0    197.0   0.706   364.0   108.0   733.0
+
+Fred VanVleet   54.0    319.0   146.0   173.0   0.848   203.0   357.0   952.0
+
+Serge Ibaka     55.0    343.0   70.0    273.0   0.718   452.0   77.0    845.0
+
+Norman Powell   52.0    296.0   109.0   187.0   0.843   190.0   91.0    830.0
+
+Terence Davis   72.0    199.0   94.0    105.0   0.864   237.0   115.0   543.0
+
+Marc Gasol      44.0    119.0   57.0    62.0    0.735   275.0   147.0   331.0
+
+Rondae Hollis-Jefferson 60.0    155.0   3.0     152.0   0.734   283.0   106.0  418.0
+
+Patrick McCaw   37.0    67.0    23.0    44.0    0.722   86.0    79.0    170.0
+
+Chris Boucher   62.0    141.0   38.0    103.0   0.784   277.0   26.0    411.0
+
+Matt Thomas     41.0    73.0    47.0    26.0    0.75    61.0    22.0    202.0
+
+Malcolm Miller  28.0    12.0    8.0     4.0     0.375   16.0    11.0    35.0
+
+Stanley Johnson 25.0    22.0    7.0     15.0    0.563   37.0    20.0    60.0
+
+Oshae Brissett  19.0    13.0    3.0     10.0    0.8     26.0    7.0     37.0
+
+Paul Watson     8.0     10.0    4.0     6.0     0.778   15.0    5.0     31.0
+
+Dewan Hernandez 6.0     5.0     1.0     4.0     0.6     14.0    3.0     14.0
+
+Shamorie Ponds  4.0     3.0     1.0     2.0     1.0     1.0     2.0     9.0
+
+Basketball Players
+ ======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to pickle
+ 5) Export team to txt file
+ 6) Print Team
+ Q) Quit
+ ======================
+Enter Selection:
+2
+Who we kickin?Watson
+Basketball Players
+ ======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to pickle
+ 5) Export team to txt file
+ 6) Print Team
+ Q) Quit
+ ======================
+Enter Selection:
+6
+['Name', 'G', 'FG', '3P', '2P', 'FT%', 'TRB', 'AST', 'PTS']
+Pascal Siakam   60.0    500.0   131.0   369.0   0.792   439.0   207.0   1371.0
+
+Kyle Lowry      58.0    334.0   164.0   170.0   0.857   292.0   433.0   1126.0
+
+OG Anunoby      69.0    286.0   89.0    197.0   0.706   364.0   108.0   733.0
+
+Fred VanVleet   54.0    319.0   146.0   173.0   0.848   203.0   357.0   952.0
+
+Serge Ibaka     55.0    343.0   70.0    273.0   0.718   452.0   77.0    845.0
+
+Norman Powell   52.0    296.0   109.0   187.0   0.843   190.0   91.0    830.0
+
+Terence Davis   72.0    199.0   94.0    105.0   0.864   237.0   115.0   543.0
+
+Marc Gasol      44.0    119.0   57.0    62.0    0.735   275.0   147.0   331.0
+
+Rondae Hollis-Jefferson 60.0    155.0   3.0     152.0   0.734   283.0   106.0  418.0
+
+Patrick McCaw   37.0    67.0    23.0    44.0    0.722   86.0    79.0    170.0
+
+Chris Boucher   62.0    141.0   38.0    103.0   0.784   277.0   26.0    411.0
+
+Matt Thomas     41.0    73.0    47.0    26.0    0.75    61.0    22.0    202.0
+
+Malcolm Miller  28.0    12.0    8.0     4.0     0.375   16.0    11.0    35.0
+
+Stanley Johnson 25.0    22.0    7.0     15.0    0.563   37.0    20.0    60.0
+
+Oshae Brissett  19.0    13.0    3.0     10.0    0.8     26.0    7.0     37.0
+
+Dewan Hernandez 6.0     5.0     1.0     4.0     0.6     14.0    3.0     14.0
+
+Shamorie Ponds  4.0     3.0     1.0     2.0     1.0     1.0     2.0     9.0
+
+Basketball Players
+ ======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to pickle
+ 5) Export team to txt file
+ 6) Print Team
+ Q) Quit
+ ======================
+Enter Selection:
+1
+Players Name: Paul Watson
+Players Games Played: 8
+Players Field Goals Made This Season: 10
+Players 3-Pointers Made: 4
+Players 2-Pointers Made: 6
+Players Free Throw Percentage: 0.778
+Players Total-Rebounds This Season: 15
+Players Total Assists This Season: 5
+Players Total Points: 31
+Basketball Players
+ ======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to pickle
+ 5) Export team to txt file
+ 6) Print Team
+ Q) Quit
+ ======================
+Enter Selection:
+6
+['Name', 'G', 'FG', '3P', '2P', 'FT%', 'TRB', 'AST', 'PTS']
+Pascal Siakam   60.0    500.0   131.0   369.0   0.792   439.0   207.0   1371.0
+
+Kyle Lowry      58.0    334.0   164.0   170.0   0.857   292.0   433.0   1126.0
+
+OG Anunoby      69.0    286.0   89.0    197.0   0.706   364.0   108.0   733.0
+
+Fred VanVleet   54.0    319.0   146.0   173.0   0.848   203.0   357.0   952.0
+
+Serge Ibaka     55.0    343.0   70.0    273.0   0.718   452.0   77.0    845.0
+
+Norman Powell   52.0    296.0   109.0   187.0   0.843   190.0   91.0    830.0
+
+Terence Davis   72.0    199.0   94.0    105.0   0.864   237.0   115.0   543.0
+
+Marc Gasol      44.0    119.0   57.0    62.0    0.735   275.0   147.0   331.0
+
+Rondae Hollis-Jefferson 60.0    155.0   3.0     152.0   0.734   283.0   106.0  418.0
+
+Patrick McCaw   37.0    67.0    23.0    44.0    0.722   86.0    79.0    170.0
+
+Chris Boucher   62.0    141.0   38.0    103.0   0.784   277.0   26.0    411.0
+
+Matt Thomas     41.0    73.0    47.0    26.0    0.75    61.0    22.0    202.0
+
+Malcolm Miller  28.0    12.0    8.0     4.0     0.375   16.0    11.0    35.0
+
+Stanley Johnson 25.0    22.0    7.0     15.0    0.563   37.0    20.0    60.0
+
+Oshae Brissett  19.0    13.0    3.0     10.0    0.8     26.0    7.0     37.0
+
+Dewan Hernandez 6.0     5.0     1.0     4.0     0.6     14.0    3.0     14.0
+
+Shamorie Ponds  4.0     3.0     1.0     2.0     1.0     1.0     2.0     9.0
+
+Paul Watson     8.0     10.0    4.0     6.0     0.778   15.0    5.0     31.0
+
+Basketball Players
+ ======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to pickle
+ 5) Export team to txt file
+ 6) Print Team
+ Q) Quit
+ ======================
+Enter Selection:
+3
+G       FG      3P      2P      FT%     TRB     AST     PTS
+41.89   160.94  55.28   105.67  0.75    181.56  100.89  451.0
+Basketball Players
+ ======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to pickle
+ 5) Export team to txt file
+ 6) Print Team
+ Q) Quit
+ ======================
+Enter Selection:
+4
+Team has been pickled as team.dat
+Basketball Players
+ ======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to pickle
+ 5) Export team to txt file
+ 6) Print Team
+ Q) Quit
+ ======================
+Enter Selection:
+q
+Goodbye

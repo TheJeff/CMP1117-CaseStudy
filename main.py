@@ -74,6 +74,7 @@ def main():
                 add_AST,
                 add_PPG
             )
+            players += 1
 
         elif menu_choice == '2':
             to_del = input("Who we kickin?")
