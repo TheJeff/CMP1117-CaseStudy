@@ -1,3 +1,5 @@
+# Jeff
+# Class Player to make and edit stats very easily
 class Player:
 
     #init
@@ -52,6 +54,9 @@ class Player:
 
 
     # Getters
+    def getName(self):
+        return self.__name
+
     def getGames(self):
         return self.__games
     
@@ -83,8 +88,8 @@ class Player:
             "G" : self.__games,
             "FG" : self.__FG_per_game,
             "3P" : self.__3P,
-            "22" : self.__2P,
-            "FT" : self.__FTP,
+            "2P" : self.__2P,
+            "FT%" : self.__FTP,
             "TRB" : self.__TRB,
             "AST" : self.__AST,
             "PTS" : self.__PPG
@@ -139,6 +144,7 @@ class Player:
 
     # Prints out all player stats 
     # Input: switch, 0 to print with title bar
+    # Debug Method
     def printStats(self, switch):
         player_stats = self.getStats()
         title_bar = []
@@ -176,7 +182,7 @@ class Player:
             return_string = return_string + "\n"
         
         for stat in stat_bar:
-            return_string = return_string + stat + "\t"
+            return_string = return_string + str(stat) + "\t"
         return return_string
 
 
