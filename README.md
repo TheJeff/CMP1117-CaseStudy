@@ -50,7 +50,9 @@ Case Study git for collaboration
 >One team member should submit the program code, output and text files. 
 >Does the program have a menu, read the data from the 1st file and loops through the 2nd file, write to a 3rd file and have data validation?
 >If you have a specific question about your code, send an email.
+[Changes for Checkpoint 4](../main/Checkpoint_4_Changes.txt)
 
 ## Checkpoint 5 - Code
 >Upload all Python program modules, text files, output shell showing your testing, pseudocode and indicate what each student worked on.
 >Only one student from each team must upload a copy of the team project.
+[Debug Output for Checkpoint 5](../main/Checkpoint_5_debug_output_V1.txt)
