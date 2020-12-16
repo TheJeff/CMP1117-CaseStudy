@@ -1,3 +1,23 @@
+# Basketball Statistic Object Class
+#
+# Authors:
+# Jeffrey N
+# Jordan C
+# Liam B
+# Archie O
+#  
+# Due Date: 
+# December 16th, 2020
+#  
+# Purpose: 
+# CMP 1117 Case Study
+#   
+# Acknowledgments:
+# Python 3 API Library
+# Previous Experience with Programming
+# Textbook Examples 
+
+
 # Jeff
 # Class Player to make and edit stats very easily
 class Player:
@@ -5,15 +25,15 @@ class Player:
     #init
     def __init__(
         self,
-        name,
-        games,
-        FG,
-        three_pointers,
-        two_pointers,
-        FTP,
-        TRB,
-        AST,
-        PPG
+        name, # Player's Name
+        games, # Games Played
+        FG, # Field Goals
+        three_pointers, # Three Pointers
+        two_pointers, # Two Pointers
+        FTP, # Free-Throw Percentage
+        TRB, # Total Rebounds
+        AST, # Assists
+        PPG # Points per game
     ):
         self.__name = name
         self.__games = games
@@ -24,7 +44,6 @@ class Player:
         self.__TRB = TRB
         self.__AST = AST
         self.__PPG = PPG
-
 
 
     # Setters
@@ -80,6 +99,11 @@ class Player:
     
     def getPPG(self):
         return self.__PPG
+
+
+    # Object Methods
+    # These were made in anticipation so not all are useful
+
 
     # Returns a dictionary of all stats for the player
     def getStats(self):
@@ -184,11 +208,3 @@ class Player:
         for stat in stat_bar:
             return_string = return_string + str(stat) + "\t"
         return return_string
-
-
-    
-    
-
-
-
-    

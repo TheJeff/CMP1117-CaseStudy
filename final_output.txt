@@ -1,0 +1,324 @@
+ Basketball Players
+=======================    
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average 
+ 4) Save team to Pickle    
+ 5) Load Pickled Team      
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player  
+ Q) Quit
+ ======================    
+Enter Selection: 
+7
+Name                           G      FG     3P     2P    FT%    TRB    AST    PTS   
+======================================================================================
+Pascal Siakam                  60     500    131    369   0.79   439    207    1371
+Kyle Lowry                     58     334    164    170   0.86   292    433    1126
+OG Anunoby                     69     286    89     197   0.71   364    108    733
+Fred VanVleet                  54     319    146    173   0.85   203    357    952
+Serge Ibaka                    55     343    70     273   0.72   452    77     845
+Norman Powell                  52     296    109    187   0.84   190    91     830
+Terence Davis                  72     199    94     105   0.86   237    115    543   
+Marc Gasol                     44     119    57     62    0.73   275    147    331
+Rondae Hollis-Jefferson        60     155    3      152   0.73   283    106    418
+Patrick McCaw                  37     67     23     44    0.72   86     79     170
+Chris Boucher                  62     141    38     103   0.78   277    26     411
+Matt Thomas                    41     73     47     26    0.75   61     22     202
+Malcolm Miller                 28     12     8      4     0.38   16     11     35
+Stanley Johnson                25     22     7      15    0.56   37     20     60
+Oshae Brissett                 19     13     3      10    0.80   26     7      37
+Paul Watson                    8      10     4      6     0.78   15     5      31
+Dewan Hernandez                6      5      1      4     0.60   14     3      14
+Shamorie Ponds                 4      3      1      2     1.00   1      2      9
+
+Team Averages:                 42     161    55     106   0.75   182    101    451
+
+Glossary
+======================================================================================
+G -- Games
+FG -- Field Goals Per Game
+3P -- 3-Point Field Goals Per Game
+2P -- 2-Point Field Goals Per Game
+FT% -- Free Throw Percentage
+TRB -- Total Rebounds Per Game
+AST -- Assists Per Game
+PTS/G -- Points Per Game
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+4
+Team has been pickled as team.dat
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+1
+Players Name: Jordan Cerilli
+Players Games Played: 80
+Players Field Goals Made This Season: 5
+Players 3-Pointers Made: 1
+Players 2-Pointers Made: 4
+Players Free Throw Percentage: 0.6
+Players Total-Rebounds This Season: 14
+Players Total Assists This Season: 3
+Players Total Points: 14
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+7
+Name                           G      FG     3P     2P    FT%    TRB    AST    PTS   
+======================================================================================
+Pascal Siakam                  60     500    131    369   0.79   439    207    1371
+Kyle Lowry                     58     334    164    170   0.86   292    433    1126
+OG Anunoby                     69     286    89     197   0.71   364    108    733
+Fred VanVleet                  54     319    146    173   0.85   203    357    952
+Serge Ibaka                    55     343    70     273   0.72   452    77     845
+Norman Powell                  52     296    109    187   0.84   190    91     830
+Terence Davis                  72     199    94     105   0.86   237    115    543
+Marc Gasol                     44     119    57     62    0.73   275    147    331   
+Rondae Hollis-Jefferson        60     155    3      152   0.73   283    106    418
+Patrick McCaw                  37     67     23     44    0.72   86     79     170
+Chris Boucher                  62     141    38     103   0.78   277    26     411
+Matt Thomas                    41     73     47     26    0.75   61     22     202
+Malcolm Miller                 28     12     8      4     0.38   16     11     35
+Stanley Johnson                25     22     7      15    0.56   37     20     60
+Oshae Brissett                 19     13     3      10    0.80   26     7      37
+Paul Watson                    8      10     4      6     0.78   15     5      31
+Dewan Hernandez                6      5      1      4     0.60   14     3      14
+Shamorie Ponds                 4      3      1      2     1.00   1      2      9
+Jordan Cerilli                 80     5      1      4     0.60   14     3      14
+
+Team Averages:                 44     153    52     100   0.74   173    96     428
+
+Glossary
+======================================================================================
+G -- Games
+FG -- Field Goals Per Game
+3P -- 3-Point Field Goals Per Game
+2P -- 2-Point Field Goals Per Game
+FT% -- Free Throw Percentage
+TRB -- Total Rebounds Per Game
+AST -- Assists Per Game
+PTS/G -- Points Per Game
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+2
+Which Player to remove?
+Chris
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+7
+Name                           G      FG     3P     2P    FT%    TRB    AST    PTS   
+======================================================================================
+Pascal Siakam                  60     500    131    369   0.79   439    207    1371
+Kyle Lowry                     58     334    164    170   0.86   292    433    1126
+OG Anunoby                     69     286    89     197   0.71   364    108    733
+Fred VanVleet                  54     319    146    173   0.85   203    357    952
+Serge Ibaka                    55     343    70     273   0.72   452    77     845
+Norman Powell                  52     296    109    187   0.84   190    91     830
+Terence Davis                  72     199    94     105   0.86   237    115    543
+Marc Gasol                     44     119    57     62    0.73   275    147    331
+Rondae Hollis-Jefferson        60     155    3      152   0.73   283    106    418
+Patrick McCaw                  37     67     23     44    0.72   86     79     170   
+Matt Thomas                    41     73     47     26    0.75   61     22     202
+Malcolm Miller                 28     12     8      4     0.38   16     11     35
+Stanley Johnson                25     22     7      15    0.56   37     20     60
+Oshae Brissett                 19     13     3      10    0.80   26     7      37
+Paul Watson                    8      10     4      6     0.78   15     5      31
+Dewan Hernandez                6      5      1      4     0.60   14     3      14
+Shamorie Ponds                 4      3      1      2     1.00   1      2      9
+Jordan Cerilli                 80     5      1      4     0.60   14     3      14
+
+Team Averages:                 43     153    53     100   0.74   167    100    429
+
+Glossary
+======================================================================================
+G -- Games
+FG -- Field Goals Per Game
+3P -- 3-Point Field Goals Per Game
+2P -- 2-Point Field Goals Per Game
+FT% -- Free Throw Percentage
+TRB -- Total Rebounds Per Game
+AST -- Assists Per Game
+PTS/G -- Points Per Game
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+5
+File found importing to program
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+7
+Name                           G      FG     3P     2P    FT%    TRB    AST    PTS   
+======================================================================================
+Pascal Siakam                  60     500    131    369   0.79   439    207    1371
+Kyle Lowry                     58     334    164    170   0.86   292    433    1126
+OG Anunoby                     69     286    89     197   0.71   364    108    733
+Fred VanVleet                  54     319    146    173   0.85   203    357    952
+Serge Ibaka                    55     343    70     273   0.72   452    77     845
+Norman Powell                  52     296    109    187   0.84   190    91     830
+Terence Davis                  72     199    94     105   0.86   237    115    543   
+Marc Gasol                     44     119    57     62    0.73   275    147    331
+Rondae Hollis-Jefferson        60     155    3      152   0.73   283    106    418
+Patrick McCaw                  37     67     23     44    0.72   86     79     170
+Chris Boucher                  62     141    38     103   0.78   277    26     411
+Matt Thomas                    41     73     47     26    0.75   61     22     202
+Malcolm Miller                 28     12     8      4     0.38   16     11     35
+Stanley Johnson                25     22     7      15    0.56   37     20     60
+Oshae Brissett                 19     13     3      10    0.80   26     7      37
+Paul Watson                    8      10     4      6     0.78   15     5      31
+Dewan Hernandez                6      5      1      4     0.60   14     3      14
+Shamorie Ponds                 4      3      1      2     1.00   1      2      9     
+
+Team Averages:                 42     161    55     106   0.75   182    101    451
+
+Glossary
+======================================================================================
+G -- Games
+FG -- Field Goals Per Game
+3P -- 3-Point Field Goals Per Game
+2P -- 2-Point Field Goals Per Game
+FT% -- Free Throw Percentage
+TRB -- Total Rebounds Per Game
+AST -- Assists Per Game
+PTS/G -- Points Per Game
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+3
+Name                           G      FG     3P     2P    FT%    TRB    AST    PTS   
+======================================================================================
+Team Averages:                 42     161    55     106   0.75   182    101    451
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+8
+What player would you like to print?
+Dewan Hernandez
+Name                           G      FG     3P     2P    FT%    TRB    AST    PTS   
+======================================================================================
+Dewan Hernandez                6      5      1      4     0.60   14     3      14
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+6
+Exported to output.txt
+ Basketball Players
+=======================
+ 1) Add
+ 2) Delete
+ 3) Calculate Team Average
+ 4) Save team to Pickle
+ 5) Load Pickled Team
+ 6) Export team to txt file
+ 7) Print Team
+ 8) Print Specific Player
+ Q) Quit
+ ======================
+Enter Selection:
+q
+Goodbye
